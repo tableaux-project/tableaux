@@ -1,0 +1,32 @@
+{
+  "entity": "abstractEntity",
+  "columns": [
+    {
+      "title": "columns.abstract.uuid",
+      "path": "abstractEntity_uuid",
+      "type": "string",
+      "filter": "StringRegExFilter",
+      "frontendHints": {
+        "showDefault": false
+      }
+    },
+    {
+      "title": "columns.abstract.createdate",
+      "path": "abstractEntity_createDateUtc",
+      "type": "DateTime",
+      "filter": "DateTimeFilter",
+      "frontendHints": {
+        "showDefault": false
+      }
+    },
+    {
+      "title": "columns.abstract.lastmodificationdate",
+      "path": "abstractEntity_lastModificationDateUtc",
+      "type": "DateTime",
+      "filter": "DateTimeFilter",
+      "frontendHints": {
+        "showDefault": false
+      }
+    }
+  ]
+}

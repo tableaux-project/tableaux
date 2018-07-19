@@ -1,0 +1,33 @@
+{
+  "entity": "company",
+  "extensions": [
+    {
+      "title": "columns.abstract.system",
+      "table": "subfolder/abstract_entity",
+      "key": null
+    }
+  ],
+  "exclusions": [
+    "company_lastModificationDateUtc"
+  ],
+  "columns": [
+    {
+      "title": "columns.masterdata.company.companykey",
+      "path": "company_companyKey",
+      "type": "long",
+      "filter": "NumericFilter",
+      "frontendHints": {
+        "showDefault": false
+      }
+    },
+    {
+      "title": "columns.masterdata.company.name",
+      "path": "company_name",
+      "type": "string",
+      "filter": "StringRegExFilter",
+      "frontendHints": {
+        "showDefault": true
+      }
+    }
+  ]
+}

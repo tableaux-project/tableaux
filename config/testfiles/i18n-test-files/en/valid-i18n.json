@@ -1,0 +1,8 @@
+{
+  "enum.addresstype.street.short": "Street",
+  "enum.addresstype.street.long": "Street address",
+  "enum.addresstype.pobox.short": "PO Box",
+  "enum.addresstype.pobox.long": "PO Box address",
+  "enum.addresstype.postalcode.short": "Wholesale address",
+  "enum.addresstype.postalcode.long": "Wholesale address or own zip code"
+}

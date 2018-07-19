@@ -1,0 +1,8 @@
+{
+  "enum.addresstype.street.short": "Strassenanschrift",
+  "enum.addresstype.street.long": "Strassenanschrift",
+  "enum.addresstype.pobox.short": "Postfachanschrift",
+  "enum.addresstype.pobox.long": "Postfachanschrift",
+  "enum.addresstype.postalcode.short": "Großkundenanschrift",
+  "enum.addresstype.postalcode.long": "Großkundenanschrift bzw. eigene Postleitzahl"
+}

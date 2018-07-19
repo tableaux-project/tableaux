@@ -1,0 +1,5 @@
+{
+  "STREET": "enum.addresstype.street",
+  "POBOX": "enum.addresstype.pobox",
+  "POSTALCODE": "enum.addresstype.postalcode"
+}
