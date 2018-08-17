@@ -72,10 +72,10 @@ func main() {
     // ----------------------
 
     mysqlconnector := tableauxmysql.NewMySQLDatabaseConnector(databaseAddress, databasePort, databaseName, databaseUser, databasePassword)
-    mysqlconnector.Close()
+    defer mysqlconnector.Close()
 
     //psqlconnector := tableauxpsql.NewPSQLDatabaseConnector("tc-postgresql", 5432, databaseName, databaseUser, databasePassword)
-    //defer closeDbDeferred(psqlconnector)
+    //defer psqlconnector.Close()
 
     // ----------------------
 
