@@ -25,7 +25,7 @@ connection, which right now has reference implementations via Tableaux-MySQL and
 ## Getting started
 
 Using Tableaux-Server, it is very easy to get started. Just copy the following code, adjust your database and credentials,
-and there you go - you got yourself an Tableaux backend server up and running!
+and there you go - you got yourself a Tableaux backend server up and running!
 
 ```go
 package main
@@ -191,7 +191,7 @@ frontendHints | Optional frontend hints, e.g. if the column should be shown per 
 Extensions provide a powerful way of integrating schema files into each other. This helps keep the schema definition [DRY](http://wiki.c2.com/?DontRepeatYourself).
 
 Extensions can be used to describe a relation between two tables, which allows to dynamically join information of related entity together at runtime. For example,
-a `user` schema could provide an extension to an `usergroup` schema, which allows the user table to include both information about users, and their respective user
+a `user` schema could provide an extension to a `usergroup` schema, which allows the user table to include both information about users, and their respective user
 groups at runtime (assuming the relation is n:1 in this example). Since the resolving of entity relations is handled dynamically from the database schema, it is
 required that these entities have proper relations set up in the database for this to work (otherwise - this will fail at **runtime when requesting data**).
 
